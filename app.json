@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "NutriNode",
+    "slug": "Food_react_native",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/NutriNode.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.NutriNode.food",
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "permissions": ["RECORD_AUDIO"]
+      },
+      "package": "com.NutriNode.food"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "8c384b09-11d9-4629-b7f2-d02d501626a1"
+      },
+      "API_KEY": "sk-proj-uteSsVXQL6Mnnn8DDurXT3BlbkFJJZpzcTCoG4KdPpUvKL6H"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Merriweather-Regular.ttf"]
+        }
+      ]
+    ]
+  }
+}
