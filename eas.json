@@ -3,6 +3,8 @@
     "version": ">= 7.6.2"
   },
   "build": {
+    "image": {
+    },
     "development": {
       "developmentClient": true,
       "distribution": "internal"
@@ -14,8 +16,7 @@
       "env":{
         "API_KEY":"sk-proj-uteSsVXQL6Mnnn8DDurXT3BlbkFJJZpzcTCoG4KdPpUvKL6H"
       }
-    },
-    "image": "./assets/favicon.png"
+    }
   },
   "submit": {
     "production": {
