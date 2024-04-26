@@ -3,6 +3,7 @@
     "version": ">= 7.6.2"
   },
   "build": {
+    "image":"ubuntu:focal-20220823",
     "development": {
       "developmentClient": true,
       "distribution": "internal"
