@@ -3,8 +3,6 @@
     "version": ">= 7.6.2"
   },
   "build": {
-    "image": {
-    },
     "development": {
       "developmentClient": true,
       "distribution": "internal"
@@ -23,7 +21,11 @@
       "ios":{
         "appleId":"shahriarhasan003@gmail.com",
         "ascAppId":"6499068631",
-        "appleTeamId":"6XN7CPMNBM"
+        "appleTeamId":"6XN7CPMNBM",
+        "image": "./assets/favicon.png"
+      },
+      "android": {
+        "image": "./assets/favicon.png"
       }
     }
   }
